@@ -1,7 +1,6 @@
-let count = 0;
-
 // store the count-el element in a countEl variable
 let countEl = document.getElementById("count-el");
+let count = 0;
 
 function increment() {
 	count = count + 1;
@@ -14,4 +13,7 @@ function save() {
 	console.log(count);
 };
 
-save()
+let welcomeEl = document.getElementById('welcome-el');
+let name = 'user';
+let greeting = 'Thanks for stopping by, '
+welcomeEl.innerText = greeting + name + '!';
