@@ -17,3 +17,5 @@ let welcomeEl = document.getElementById('welcome-el');
 let name = 'user';
 let greeting = 'Thanks for stopping by, '
 welcomeEl.innerText = greeting + name + '!';
+
+welcomeEl.innerText = welcomeEl.innerText + ' 👋'
